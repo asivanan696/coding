@@ -1,0 +1,442 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type='text/xsl' href='http://www.ihe.allscriptscloud.com/CED/2.2/STYLES/CED.XSL'?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <realmCode code="US"/>
+  <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+  <templateId extension="IMPL_CDAR2_LEVEL1" root="2.16.840.1.113883.10"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+  <id extension="20150408203655" root="1.3.6.1.4.1.22812.4.56924.0.1"/>
+  <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SUMMARIZATION OF EPISODE NOTE"/>
+  <title>Visit Summary</title>
+  <effectiveTime value="20150408203636-0400"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+  <languageCode code="en-US"/>
+  <recordTarget>
+    <patientRole>
+      <id extension="61340" root="1.3.6.1.4.1.22812.4.56924.0"/>
+      <addr use="H">
+        <streetAddressLine>My Street 1</streetAddressLine>
+        <city>Winterville</city>
+        <state>GA</state>
+        <postalCode>30683</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:+1-(706)614-1950"/>
+      <telecom value="tel:+1-(706)202-5294"/>
+      <telecom value="tel:+1-(706)202-5294"/>
+      <patient>
+        <name>
+          <family>TestPatient1</family>
+          <given>sendDemoEventP1</given>
+          <given>E</given>
+        </name>
+        <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"/>
+        <birthTime value="19300808"/>
+        <maritalStatusCode codeSystem="2.16.840.1.113883.5.2" code="M" displayName="Married"/>
+        <raceCode codeSystem="2.16.840.1.113883.6.238" code="2106-3" displayName="White"/>
+        <ethnicGroupCode codeSystem="2.16.840.1.113883.6.238" code="2186-5" displayName="Not Hispanic or Latino"/>
+        <languageCommunication>
+          <templateId root="2.16.840.1.113883.3.88.11.32.2"/>
+          <templateId root="2.16.840.1.113883.3.88.11.83.2"/>
+          <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.1"/>
+          <languageCode code="eng"/>
+          <preferenceInd value="false"/>
+        </languageCommunication>
+      </patient>
+      <providerOrganization>
+        <id extension="0" root="1.3.6.1.4.1.22812.4.56924.0"/>
+        <name>Hawthorne Medical Associates-Watkinsville</name>
+        <telecom value="tel:+1-(706)769-3331"/>
+        <addr>
+          <streetAddressLine>1351 Amystreet1 5</streetAddressLine>
+          <city>Watkinsville</city>
+          <state>GA</state>
+          <postalCode>30677</postalCode>
+          <country>US</country>
+        </addr>
+      </providerOrganization>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value="20150408203636-0400"/>
+    <assignedAuthor>
+      <id root="2.16.840.1.113883.4.6" extension="1699734327"/>
+      <id extension="3" root="1.3.6.1.4.1.22812.4.56924.0"/>
+      <addr>
+        <streetAddressLine>1351 Amystreet1 5</streetAddressLine>
+        <city>Watkinsville</city>
+        <state>GA</state>
+        <postalCode>30677</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:+1-(706)769-3331"/>
+      <assignedPerson>
+        <name>
+          <family>Amylname1</family>
+          <given>Amanda</given>
+          <given>J</given>
+          <suffix>MD</suffix>
+        </name>
+      </assignedPerson>
+    </assignedAuthor>
+  </author>
+  <author>
+    <time value="20150408203636-0400"/>
+    <assignedAuthor>
+      <id extension="0" root="1.3.6.1.4.1.22812.4.56924.0.3.3"/>
+      <addr>
+        <streetAddressLine>1351 Amystreet1 5</streetAddressLine>
+        <city>Watkinsville</city>
+        <state>GA</state>
+        <postalCode>30677</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:+1-(706)769-3331"/>
+      <assignedAuthoringDevice>
+        <manufacturerModelName>Professional EHR 13.2.0.98</manufacturerModelName>
+        <softwareName>Professional EHR 13.2.0.98; Transform 4.1.3.1</softwareName>
+      </assignedAuthoringDevice>
+      <representedOrganization>
+        <id extension="0" root="1.3.6.1.4.1.22812.4.56924.0"/>
+        <name>Hawthorne Medical Associates-Watkinsville</name>
+        <telecom value="tel:+1-(706)769-3331"/>
+        <addr>
+          <streetAddressLine>1351 Amystreet1 5</streetAddressLine>
+          <city>Watkinsville</city>
+          <state>GA</state>
+          <postalCode>30677</postalCode>
+          <country>US</country>
+        </addr>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id extension="0" root="1.3.6.1.4.1.22812.4.56924.0"/>
+        <name>Hawthorne Medical Associates-Watkinsville</name>
+        <telecom value="tel:+1-(706)769-3331"/>
+        <addr>
+          <streetAddressLine>1351 Amystreet1 5</streetAddressLine>
+          <city>Watkinsville</city>
+          <state>GA</state>
+          <postalCode>30677</postalCode>
+          <country>US</country>
+        </addr>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <informationRecipient>
+    <intendedRecipient>
+      <id extension="0" root="1.3.6.1.4.1.22812.4.56924.0.3.1"/>
+      <addr>
+        <streetAddressLine>1351 Amystreet1 5</streetAddressLine>
+        <city>Watkinsville</city>
+        <state>GA</state>
+        <postalCode>30677</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:+1-(706)769-3331"/>
+      <receivedOrganization>
+        <name>Hawthorne Medical Associates-Watkinsville</name>
+        <telecom value="tel:+1-(706)769-3331"/>
+        <addr>
+          <streetAddressLine>1351 Amystreet1 5</streetAddressLine>
+          <city>Watkinsville</city>
+          <state>GA</state>
+          <postalCode>30677</postalCode>
+          <country>US</country>
+        </addr>
+      </receivedOrganization>
+    </intendedRecipient>
+  </informationRecipient>
+  <legalAuthenticator>
+    <time value="20150408203636-0400"/>
+    <signatureCode code="S"/>
+    <assignedEntity>
+      <id extension="1699734327" root="2.16.840.1.113883.4.6"/>
+      <addr>
+        <streetAddressLine>1351 Amystreet1 5</streetAddressLine>
+        <city>Watkinsville</city>
+        <state>GA</state>
+        <postalCode>30677</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:+1-(706)769-3331"/>
+      <assignedPerson>
+        <name>
+          <family>Amylname1</family>
+          <given>Amanda</given>
+          <given>J</given>
+          <suffix>MD</suffix>
+        </name>
+      </assignedPerson>
+    </assignedEntity>
+  </legalAuthenticator>
+  <authenticator>
+    <time value="20150408203636-0400"/>
+    <signatureCode code="S"/>
+    <assignedEntity>
+      <id extension="1699734327" root="2.16.840.1.113883.4.6"/>
+      <addr>
+        <streetAddressLine>1351 Amystreet1 5</streetAddressLine>
+        <city>Watkinsville</city>
+        <state>GA</state>
+        <postalCode>30677</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:+1-(706)769-3331"/>
+      <assignedPerson>
+        <name>
+          <family>Amylname1</family>
+          <given>Amanda</given>
+          <given>J</given>
+          <suffix>MD</suffix>
+        </name>
+      </assignedPerson>
+    </assignedEntity>
+  </authenticator>
+  <participant typeCode="IND">
+    <associatedEntity classCode="ECON">
+      <code code="ECON" displayName="Emergency Contact" codeSystem="2.16.840.1.113883.5.111" codeSystemName="RoleCode"/>
+      <addr>
+        <streetAddressLine>8 Pineview Dr</streetAddressLine>
+        <city>Winterville</city>
+        <state>GA</state>
+        <postalCode>30683</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:+1-(706)742-5206"/>
+      <associatedPerson>
+        <name>
+          <family>Mylname1</family>
+          <given>Marion</given>
+        </name>
+      </associatedPerson>
+    </associatedEntity>
+  </participant>
+  <documentationOf>
+    <serviceEvent classCode="PCPR">
+      <id extension="10044812957" root="1.3.6.1.4.1.22812.4.56924.0.3.8"/>
+      <code codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT-4" code="99213"/>
+      <effectiveTime>
+        <low value="20150408085400"/>
+        <high value="20150408203636-0400"/>
+      </effectiveTime>
+      <performer typeCode="PRF">
+        <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.3"/>
+        <templateId root="2.16.840.1.113883.3.88.11.32.4"/>
+        <templateId root="2.16.840.1.113883.3.88.11.83.4"/>
+        <time>
+          <low/>
+          <high/>
+        </time>
+        <assignedEntity>
+          <id extension="1699734327" root="2.16.840.1.113883.4.6"/>
+          <code codeSystem="2.16.840.1.113883.6.101" codeSystemName="ProviderCodes" code="260000000X" displayName="Ambulatory Health Care Facilities"/>
+          <addr>
+            <streetAddressLine>1351 Amystreet1 5</streetAddressLine>
+            <city>Watkinsville</city>
+            <state>GA</state>
+            <postalCode>30677</postalCode>
+            <country>US</country>
+          </addr>
+          <telecom value="tel:+1-(706)769-3331"/>
+          <assignedPerson>
+            <name>
+              <family>Amylname1</family>
+              <given>Amanda</given>
+              <given>J</given>
+              <suffix>MD</suffix>
+            </name>
+          </assignedPerson>
+        </assignedEntity>
+      </performer>
+      <performer typeCode="PRF">
+        <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.3"/>
+        <templateId root="2.16.840.1.113883.3.88.11.32.4"/>
+        <functionCode codeSystem="2.16.840.1.113883.12.443" code="CP" displayName="Consulting Provider"/>
+        <time>
+          <low/>
+          <high/>
+        </time>
+        <assignedEntity>
+          <id extension="864" root="1.3.6.1.4.1.22812.4.56924.0"/>
+          <code codeSystem="2.16.840.1.113883.6.101" codeSystemName="ProviderCodes" code="260000000X" displayName="Ambulatory Health Care Facilities"/>
+          <addr nullFlavor="UNK">
+            <streetAddressLine nullFlavor="UNK"/>
+            <city nullFlavor="UNK"/>
+            <state nullFlavor="UNK"/>
+            <postalCode nullFlavor="UNK"/>
+            <country nullFlavor="UNK"/>
+          </addr>
+          <telecom nullFlavor="UNK"/>
+          <assignedPerson>
+            <name>
+              <family>Podiatrist</family>
+              <given>Referred to unspecified</given>
+            </name>
+          </assignedPerson>
+        </assignedEntity>
+      </performer>
+      <performer typeCode="PRF">
+        <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.3"/>
+        <templateId root="2.16.840.1.113883.3.88.11.32.4"/>
+        <time>
+          <low/>
+          <high/>
+        </time>
+        <assignedEntity>
+          <id extension="16" root="1.3.6.1.4.1.22812.4.56924.0"/>
+          <code codeSystem="2.16.840.1.113883.6.101" codeSystemName="ProviderCodes" code="260000000X" displayName="Ambulatory Health Care Facilities"/>
+          <addr nullFlavor="UNK">
+            <streetAddressLine nullFlavor="UNK"/>
+            <city nullFlavor="UNK"/>
+            <state nullFlavor="UNK"/>
+            <postalCode nullFlavor="UNK"/>
+            <country nullFlavor="UNK"/>
+          </addr>
+          <telecom nullFlavor="UNK"/>
+          <assignedPerson>
+            <name>
+              <family>Amylname2</family>
+              <given>Nancy</given>
+              <suffix>MOA</suffix>
+            </name>
+          </assignedPerson>
+        </assignedEntity>
+      </performer>
+      <performer typeCode="PRF">
+        <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.3"/>
+        <time>
+          <low/>
+          <high/>
+        </time>
+        <assignedEntity classCode="ASSIGNED">
+          <id extension="1137" root="1.3.6.1.4.1.22812.4.56924.0.3.6"/>
+          <code code="PHARMACY" codeSystem="1.3.5.1.4.1.19376.1.5.3.3" codeSystemName="IHERoleCode"/>
+          <addr>
+            <streetAddressLine>3355 LEXINGTON RD</streetAddressLine>
+            <city>ATHENS</city>
+            <state>GA</state>
+            <postalCode>306052450</postalCode>
+            <country>US</country>
+          </addr>
+          <telecom value="tel:+1-(706)765-2000"/>
+          <representedOrganization>
+            <name>Walgreens (Lexington Road)</name>
+            <telecom value="tel:+1-(706)765-2000"/>
+            <addr>
+              <streetAddressLine>3355 LEXINGTON RD</streetAddressLine>
+              <city>ATHENS</city>
+              <state>GA</state>
+              <postalCode>306052450</postalCode>
+              <country>US</country>
+            </addr>
+          </representedOrganization>
+        </assignedEntity>
+      </performer>
+    </serviceEvent>
+  </documentationOf>
+  <componentOf>
+    <encompassingEncounter>
+      <id extension="10044812957" root="1.3.6.1.4.1.22812.4.56924.0.3.4"/>
+      <effectiveTime>
+        <low value="20150408085400"/>
+        <high value="20150408203636-0400"/>
+      </effectiveTime>
+    </encompassingEncounter>
+  </componentOf>
+  <component>
+    <structuredBody>
+      <templateId extension="IMPL_CDAR2_LEVEL1" root="2.16.840.1.113883.10"/>
+      <component>
+        <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+                    <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HISTORY OF MEDICATION USE"/>
+                    <title>Medications</title>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <!-- ** MEDICATION ACTIVITY -->
+                            <id root="cdbd33f0-6cde-11db-9fe1-0800200c9a11"/>
+                            <text>
+                                0.09 MG/ACTUAT2 inhalant solution, 2 puffs QID PRN wheezing
+                            </text>
+                            <statusCode code="completed"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low value="20140301"/>
+                                <high value="20120301"/>
+                            </effectiveTime>
+                            <effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
+                                <period value="6" unit="h"/>
+                            </effectiveTime>
+                            <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="RESPIRATORY (INHALATION)"/>
+                            <doseQuantity value="1"/>
+                            <rateQuantity value="90" unit="ml/min"/>
+                            <maxDoseQuantity nullFlavor="UNK">
+                                <numerator nullFlavor="UNK"/>
+                                <denominator nullFlavor="UNK"/>
+                            </maxDoseQuantity>
+                            <administrationUnitCode code="C42944" displayName="INHALANT" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus"/>
+                            <consumable>
+                                <manufacturedProduct>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <id/>
+                                    <manufacturedMaterial>
+                                        <code code="329498" codeSystem="2.16.840.1.113883.6.88" displayName="Albuterol_BAD 0.09 MG/ACTUAT inhalant solution">
+                                            <translation code="573621" displayName="Proventil 0.09 MG/ACTUAT inhalant solution" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
+                                        </code>
+                                    </manufacturedMaterial>
+                                    <manufacturerOrganization/>
+                                </manufacturedProduct>
+                            </consumable>
+                        </substanceAdministration>
+                    </entry>
+
+
+ <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <!-- ** MEDICATION ACTIVITY -->
+                            <id root="cdbd33f0-6cde-11db-9fe1-1893800c9a85"/>
+                            <text>
+                                0.09 MG/ACTUAT55 inhalant solution, 2 puffs QID PRN wheezing
+                            </text>
+                            <statusCode code="completed"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low value="20110301"/>
+                                <high value="20120301"/>
+                            </effectiveTime>
+                            <effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
+                                <period value="6" unit="h"/>
+                            </effectiveTime>
+                            <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="RESPIRATORY (INHALATION)"/>
+                            <doseQuantity value="1"/>
+                            <rateQuantity value="90" unit="ml/min"/>
+                            <maxDoseQuantity nullFlavor="UNK">
+                                <numerator nullFlavor="UNK"/>
+                                <denominator nullFlavor="UNK"/>
+                            </maxDoseQuantity>
+                            <administrationUnitCode code="C42944" displayName="INHALANT" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus"/>
+                            <consumable>
+                                <manufacturedProduct>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <id/>
+                                    <manufacturedMaterial>
+                                        <code code="329498" codeSystem="2.16.840.1.113883.6.88" displayName="Albuterol_GOOD 0.09 MG/ACTUAT inhalant solution">
+                                            <translation code="573621" displayName="Proventil 0.09 MG/ACTUAT inhalant solution" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm"/>
+                                        </code>
+                                    </manufacturedMaterial>
+                                    <manufacturerOrganization/>
+                                </manufacturedProduct>
+                            </consumable>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>
+
